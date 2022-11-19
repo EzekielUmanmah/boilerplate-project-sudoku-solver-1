@@ -1,24 +1,13 @@
 class SudokuSolver {
+  validate(str) {}
 
-  validate(puzzleString) {
-  }
+  checkRowPlacement(str, row, column, value) {}
 
-  checkRowPlacement(puzzleString, row, column, value) {
+  checkColPlacement(str, row, column, value) {}
 
-  }
+  checkRegionPlacement(str, row, column, value) {}
 
-  checkColPlacement(puzzleString, row, column, value) {
-
-  }
-
-  checkRegionPlacement(puzzleString, row, column, value) {
-
-  }
-
-  solve(puzzleString) {
-    
-  }
+  solve(str) {}
 }
 
 module.exports = SudokuSolver;
-
